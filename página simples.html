@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Simples de Rafael Carvalho de Jesus</title>
+</head>
+<body>
+
+    <h1>Rafael Carvalho de Jesus</h1>
+
+    <p>Olá! Meu nome é Rafael Carvalho de Jesus, tenho 23 anos e sou da cidade de Vitória. Meus interesses atuais são me tornar um programador, viajar o mundo e conseguir uma casa própria pra minha família.</p>
+
+    <ul>
+        <li>*Jogar videogame</li>
+        <li>*Sair com os amigos</li>
+        <li>*Fazer academia</li>
+    </ul>
+
+    <img src="imagens/Jogar videogame.jpg" alt="Jogando videogame">
+
+    <table>
+        <tr>
+            <th>País</th>
+        </tr>
+        <tr>
+            <td>Japão</td>
+            <td><img src="imagens/Japão.jpg" alt="Japão"></td>
+        </tr>
+        <tr>
+            <td>Coréia do Sul</td>
+            <td><img src="imagens/Coréia do Sul.jpg" alt="Coréia do Sul"></td>
+        </tr>
+        <tr>
+            <td>China</td>
+            <td><img src="imagens/China.jpg" alt="China"></td>
+        </tr>
+    </table>
+
+    <a 
+    href="https://www.thegamer.com" target="_blank">TheGamer
+</a>
+
+</p>
+    <style>
+        body {
+            background-color: #87CEEB;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #800080; 
+            text-align: center;
+            margin-top: 50px;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 25px; 
+            text-align: justify; 
+        }
+
+        ul {
+            margin: 25px 0;
+            padding: 0;
+        }
+
+        ul li {
+            font-size: 20px;
+            margin-bottom: 17px; 
+        }
+
+        img {
+            border-radius: 15px; 
+            width: 100%; 
+            max-width: 300px; 
+            display: block;
+            margin: 20px auto;
+        }
+
+        table {
+            width: 80%;
+            margin: 30px auto;
+            background-color: #adffed; 
+        }
+
+        table th, table td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid;
+        }
+
+        table th {
+            background-color: #800080; 
+            color: rgb(255, 255, 255);
+        }
+
+        table tr: {
+            background-color: #ffffff; 
+        }
+
+        a {
+            font-size: 20px;
+            color: #145291; 
+        }
+
+        a:hover {
+            font-size: 20px;
+            color: #FF6347;  
+        }
+
+        button {
+            display: block;
+            width: 200px;
+            height: 50px;
+            margin: 20px auto;
+            background-color: #800080; 
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #message {
+            font-size: 1.5em;
+            text-align: center;
+            color: #2F4F4F; 
+            display: none; 
+        }
+    </style>
+    <button onclick="showMessage()">Clique para ver uma mensagem!</button>
+
+    <div id="message">
+        "Acredite em você, pois é mais forte do que imagina!"
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
